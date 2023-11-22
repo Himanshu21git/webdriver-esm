@@ -2,8 +2,8 @@ import { Given, Then, When } from '@cucumber/cucumber';
 import { Actor, actorInTheSpotlight } from '@serenity-js/core';
 import { Navigate } from '@serenity-js/web';
 
-import { Authenticate, VerifyAuthentication } from '../../test/authentication';
-import { PickExample } from '../../test/examples';
+import { Authenticate, VerifyAuthentication } from '../test/authentication';
+import { PickExample } from '../test/examples';
 
 /**
  * Below step definitions use Cucumber Expressions
@@ -33,6 +33,7 @@ When('{pronoun} log(s) in using {string} and {string}', async (actor: Actor, use
  */
 Then(/.* should see that authentication has (succeeded|failed)/, async (expectedOutcome: string) =>
     actorInTheSpotlight().attemptsTo(
+        // @ts-ignore
         VerifyAuthentication[expectedOutcome](),
     )
 );

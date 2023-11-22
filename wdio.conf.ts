@@ -189,7 +189,7 @@ export const config: WebdriverIOConfig = {
         // <string> (name) specify the profile to use
         profile: '',
         // <boolean> fail if there are any undefined or pending steps
-        strict: false,
+        strict: true,
         
         // <string[] | string> (expression) only execute the features or scenarios with tags matching the expression
         tags: [],

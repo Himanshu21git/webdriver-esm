@@ -5,7 +5,7 @@ In order to learn how to implement *high-quality automated tests*
 As a Curious Developer
 I'd like to have a place to practice
 
-This note is called _"the narrative"_. It can be used to provide the context around the business capability of your
+This note is called *"the narrative"*. It can be used to provide the context around the business capability of your
 product ("Authentication" features in this case) and its features that help to enable this capability.
 
 **Please note:** While [Cucumber](https://github.com/cucumber/cucumber-js) allows you to capture a description
