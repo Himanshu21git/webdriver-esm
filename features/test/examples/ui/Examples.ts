@@ -1,5 +1,5 @@
 import { equals } from '@serenity-js/assertions';
-import {  QuestionAdapter } from '@serenity-js/core';
+import type { QuestionAdapter } from '@serenity-js/core';
 import { By, PageElement, PageElements, Text } from '@serenity-js/web';
 
 /**

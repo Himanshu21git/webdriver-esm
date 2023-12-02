@@ -1,7 +1,7 @@
 import { Task } from '@serenity-js/core';
 import { Click, Enter } from '@serenity-js/web';
 
-import { LoginForm } from './ui/LoginForm';
+import { LoginForm } from './ui/LoginForm.js';
 
 /**
  * This is called a "Task".
