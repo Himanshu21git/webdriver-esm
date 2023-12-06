@@ -2,7 +2,7 @@ import { Ensure, includes } from '@serenity-js/assertions';
 import { Task } from '@serenity-js/core';
 import { isVisible, Text } from '@serenity-js/web';
 
-import { FlashMessages } from './ui/FlashMessages';
+import { FlashMessages } from './ui/FlashMessages.js';
 
 export class VerifyAuthentication {
     private static hasFlashAlert = () =>
